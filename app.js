@@ -40,7 +40,7 @@ app.post("/",function(req,res){
    const rt =https.request(url,options,function(response){
 
     if(response.statusCode===200){
-        res.send("succesfully subscribed");
+        res.send("Congradulations succesfully subscribed");
     }else{
         res.send("Error in submittion plse try again");
     }
